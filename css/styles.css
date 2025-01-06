@@ -1,0 +1,431 @@
+@font-face {
+    font-family: "PTsans";
+    font-weight: 700;
+    src: url("/2178301-sedona-2-master/2178301-sedona-2-master/fonts/ptsans-700.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "PTsans";
+    font-weight: 400;
+    src: url("/2178301-sedona-2-master/2178301-sedona-2-master/fonts/ptsans-400.woff2") format("woff2");
+}
+
+body {
+    margin: 0;
+    font-family: "PTsans", sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+/* Шапка */
+
+.main-header {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.header-nav {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-nav-button {
+    width: 160px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    border: none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(117, 97, 87, 1);
+}
+
+.page-navigation {
+    display: flex; 
+    align-items: center;
+    margin-left: 28px;
+    padding: 0;
+}
+
+.page-navigation-item a {
+    margin: 20px 16px;
+    font-size: 20px;
+    font-family: "PTsans", sans-serif;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.left-navigation {
+    display: flex;
+    margin-right: 285px;
+}
+
+.logo img {
+    width: 138px;
+    height: 64px;
+}
+
+.right-navigation {
+    display: flex;
+    justify-content: flex-start;
+    width: 268px;
+}
+
+.right-navigation a {
+    margin: 22px 12px;
+}
+
+/* Основной контент */
+
+.main-content {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.hero-content {
+    position: relative;
+
+}
+
+.hero-content img:first-child {
+    margin-bottom: 69px;
+}
+
+.hero-content h1, p {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+.overlay-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 352px;
+    width: 458px;
+    top: 57px;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 428px;
+    left: 0;
+    height: 57px;
+    width: 1200px;
+}
+
+.main-content img {
+    width: 100%;
+}
+
+.main-content-firstrow {
+    display: flex;
+}
+
+.main-content-secondrow {
+    display: flex;
+}
+
+.main-content-thirdrow {
+    display: flex;
+}
+
+.main-content-fourthrow {
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    width: 400px;
+    height: 385px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Первый ряд */
+
+.main-content-firstrow .card {
+    background: rgba(130, 179, 211, 1);
+}
+
+.main-content-firstrow .card-content {
+    margin: 102px 85px;
+    color: white;
+}
+
+.main-content-firstrow img {
+    width: 800px;
+    height: 385px;
+}
+
+/* Второй ряд */
+
+.main-content-secondrow .card:nth-child(1), .main-content-secondrow .card:nth-child(3) {
+    background: rgba(131, 179, 211, 0.12);
+
+}
+
+.main-content-secondrow .card:nth-child(2) {
+    background: rgba(131, 179, 211, 0.2);
+
+}
+
+.main-content-secondrow .card-content {
+    margin: 112.5px 85px;
+
+}
+
+/* Третий ряд */
+
+.main-content-thirdrow {
+    margin-bottom: 64px;
+}
+
+.main-content-thirdrow img {
+    width: 800px;
+    height: 385px;
+}
+
+.main-content-thirdrow .card {
+    background: rgba(130, 179, 211, 1);
+}
+
+.main-content-thirdrow .card-content {
+    margin: 112.5px 85px;
+    color: white;
+}
+
+/* Четвертый ряд */
+
+.main-content-fourthrow {
+    margin-bottom: 96px;
+}
+
+.main-content-fourthrow .card:nth-child(1), .main-content-fourthrow .card:nth-child(3) {
+    background: rgba(130, 179, 211, 0.2);
+}
+
+.main-content-fourthrow .card:nth-child(2) {
+    background: rgba(131, 179, 211, 0.12);
+}
+
+.main-content-fourthrow .card-content {
+    margin: 112.5px 85px;
+}
+
+/* Спэйсинги */
+
+.spacing-one {
+    text-align: center;
+}
+
+.spacing-one h1 {
+    font-family: "PTsans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 620px;
+}
+
+.spacing-one p {
+    font-family: "PTsans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400; 
+
+    margin: 0;
+    margin-bottom: 90px;
+}
+
+.spacing-two {
+    text-align: center;
+}
+
+.spacing-two h2 {
+    font-family: "PTsans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    width: 505px;
+}
+
+.spacing-two p {
+    font-family: "PTsans", sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400; 
+
+    margin: 0;
+    margin-bottom: 64px;
+}
+
+.spacing-three {
+    text-align: center;
+}
+
+.spacing-three h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.spacing-three p {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+
+    margin: 0 auto;
+    margin-bottom: 54px;
+    width: 592px;
+}
+
+
+
+/* Подвал */
+
+.main-footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.crop-container {
+    width: 100%;
+    height: 415px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    left: 50%;
+    color: white;
+
+    font-family: "PTsans";
+    text-align: center;
+    transform: translate(-50%, 0);
+    top: 96px;
+}
+
+.overlay-text h3 {
+
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+.overlay-text p {
+    font-size: 22px;
+    line-height: 26px;
+    width: 475px;
+}
+
+.main-footer img {
+    width: 100%;
+    height: auto;
+}
+
+.input-area {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 258px;
+
+    display: flex;
+}
+
+.input-area input {
+    width: 452px;
+    height: 48px;
+
+    font-size: 18px;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    margin: 0;
+}
+
+.input-button {
+    width: 232px;
+    height: 52px;
+
+    font-family: "PTsans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    border: none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(130, 179, 211, 1);
+}
+
+.social-list {
+    display: flex;
+}
+
+.special-item {
+    display: flex;
+    margin-right: 236px;
+}
+.social-item {
+    margin-right: 13px;
+}
+
+.phone {
+    font-family: "PTsans";
+    font-size: 40px;
+    line-height: 40px;
+
+    margin-right: 235px;
+}
+
+.main-button {
+    width: 376px;
+    height: 52px;
+
+    margin-bottom: 96px;
+
+    font-family: "PTsans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    border: none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(117, 97, 87, 1);
+}
+
