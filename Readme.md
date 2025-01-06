@@ -2,6 +2,7 @@
 
 * Студент: [Егор Вогуляков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2178301).
 * Наставник: `[Noname]`.
+* Сайт: `[Sedona]`(https://egorvog.github.io/2178301-sedona-2/)
 
 ---
 
