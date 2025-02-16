@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Каталог</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="navigation-list">
+        <li class="navigation-list-logo">
+          <a href="index.html">
+            <img src="img/logo_Frame 19.png" width="140" height="70" alt="" class="logo">
+          </a>
+        </li>
+        <li class="navigation-list-left">
+          <ul>
+            <li><a href="">
+                <p>Главная</p>
+              </a></li>
+            <li><a href="">
+                <p>О Седоне</p>
+              </a></li>
+            <li><a href="">
+                <p>Гостиницы</p>
+              </a></li>
+          </ul>
+        </li>
+        <li class="navigation-list-right">
+          <ul>
+            <li><img src="/sedona_second_variant/img/search.png" alt=""></li>
+            <li><img src="/sedona_second_variant/img/heart.png" alt=""></li>
+            <li><a href=""><button type="button">ХОЧУ СЮДА!</button></a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-inner">
+    <h1 class="main-title">Гостиницы Седоны</h1>
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs-item"><a href="index.html" class=""><img src="" alt=""></a></li>
+      <li class="breadcrumbs-item"><a>Каталог</a></li>
+    </ul>
+
+    <section class="catalog-products">
+      <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+
+      <form action="" class="catalog-filter" method="get">
+
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Инфраструктура</legend>
+          <ul class="catalog-filter-list">
+            <li class="catalog-filter-item">
+              <label for="box-input_1" class="control">
+                <input id="box-input_1" type="checkbox">
+                Бассейн
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label for="box-input_2" class="control">
+                <input id="box-input_2" type="checkbox">
+                Парковка
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label for="box-input_3" class="control">
+                <input id="box-input_3" type="checkbox">
+                Wi-Fi
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Тип жилья</legend>
+          <ul class="catalog-filter-list">
+            <li class="catalog-filter-item">
+              <label for="box-input_4" class="control">
+                <input id="box-input_4" name="radio-input" type="radio">
+                Гостиница
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label for="box-input_5" class="control">
+                <input id="box-input_5" name="radio-input" type="radio">
+                Мотель
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label for="box-input_6" class="control">
+                <input id="box-input_6" name="radio-input" type="radio">
+                Апартаменты
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+
+        <button class="button" type="submit">Показать</button>
+      </form>
+
+      <select name="" id="" class="select-control" aria-label="Сортировка">
+        <option value="">Сначала популярное</option>
+        <option value="">Сначала дешевое</option>
+        <option value="">Сначала дорогое</option>
+      </select>
+
+      <a href="" class="button-list">
+        <span>Показать список</span>
+      </a>
+
+      <a href="" class="button-card">
+        <span>Показать карточки</span>
+      </a>
+
+      <ul class="products-list">
+        <li class="product-card">
+          <a href="" class="product-card-link">
+            <img src="" alt="">
+            <h3>Amara Resort & Spa</h3>
+          </a>
+          <span>Гостиница</span>
+          <span class="price">4000</span>
+          <button class="description">Подробнее</button>
+          <button class="favorite">В избранное</button>
+        </li>
+        <li class="product-card">
+          <a href="" class="product-card-link">
+            <img src="" alt="">
+            <h3>Villas at Poco Diablo</h3>
+          </a>
+          <span>Гостиница</span>
+          <span class="price">4000</span>
+          <button class="description">Подробнее</button>
+          <button class="favorite">В избранное</button>
+        </li>
+        <li class="product-card">
+          <a href="" class="product-card-link">
+            <img src="" alt="">
+            <h3>Desert Quail Inn</h3>
+          </a>
+          <span>Гостиница</span>
+          <span class="price">4000</span>
+          <button class="description">Подробнее</button>
+          <button class="favorite">В избранное</button>
+        </li>
+        <li class="product-card">
+          <a href="" class="product-card-link">
+            <img src="" alt="">
+            <h3>GreenTree Inn</h3>
+          </a>
+          <span>Гостиница</span>
+          <span class="price">4000</span>
+          <button class="description">Подробнее</button>
+          <button class="favorite">В избранное</button>
+        </li>
+      </ul>
+
+      <ul class="pagination">
+        <li class="item-pagination">
+          <a href="" class="pagination-link">1</a>
+        </li>
+        <li class="item-pagination">
+          <a href="" class="pagination-link">2</a>
+        </li>
+        <li class="item-pagination">
+          <a href="" class="pagination-link">3</a>
+        </li>
+        <li class="item-pagination">
+          <a href="" class="pagination-link">4</a>
+        </li>
+        <li class="item-pagination">
+          <a href="" class="pagination-link">10</a>
+        </li>
+      </ul>
+
+    </section>
+
+  </main>
+  <footer>
+    <ul class="footer-list">
+      <li class="footer-list-item">
+        <ul class="social-network-list">
+          <img src="/sedona_second_variant/img/VK.png" alt="">
+          <img src="/sedona_second_variant/img/TG.png" alt="">
+          <img src="/sedona_second_variant/img/YOUTUBE.png" alt="">
+        </ul>
+      </li>
+      <li class="footer-list-item">
+        <a href="tel:+7 (812) 812-12-12" class="number-phone">+7 (812) 812-12-12</a>
+      </li>
+      <li class="footer-list-item">
+        <img src="/sedona_second_variant/img/LOGO_HTMLacademy.svg" alt="">
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
