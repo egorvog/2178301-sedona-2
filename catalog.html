@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header>
+  <header data-test="header">
     <nav>
       <ul class="navigation-list">
         <li class="navigation-list-logo">
@@ -40,17 +40,17 @@
       </ul>
     </nav>
   </header>
-  <main class="main-inner">
+  <main data-test="main" class="main-inner">
     <h1 class="main-title">Гостиницы Седоны</h1>
     <ul class="breadcrumbs">
       <li class="breadcrumbs-item"><a href="index.html" class=""><img src="" alt=""></a></li>
       <li class="breadcrumbs-item"><a>Каталог</a></li>
     </ul>
 
-    <section class="catalog-products">
+    <section data-test="hero" class="catalog-products">
       <h2 class="visually-hidden">Список товаров с фильтрами</h2>
 
-      <form action="" class="catalog-filter" method="get">
+      <form data-test="filter" action="https://echo.htmlacademy.ru/" class="catalog-filter" method="get">
 
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Инфраструктура</legend>
@@ -116,7 +116,7 @@
         <span>Показать карточки</span>
       </a>
 
-      <ul class="products-list">
+      <ul data-test="catalog" class="products-list">
         <li class="product-card">
           <a href="" class="product-card-link">
             <img src="" alt="">
@@ -180,7 +180,7 @@
     </section>
 
   </main>
-  <footer>
+  <footer data-test="footer">
     <ul class="footer-list">
       <li class="footer-list-item">
         <ul class="social-network-list">

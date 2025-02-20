@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <header>
+  <header data-test="header">
     <nav>
       <ul class="navigation-list">
         <li class="navigation-list-logo">
@@ -40,8 +40,8 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section class="section-hero-content">
+  <main data-test="main">
+    <section data-test="hero" class="section-hero-content">
       <img src="/sedona_second_variant/img/Hero.png" alt="" class="img-hero" width="1200" height="485">
       <img src="/sedona_second_variant/img/welcome.svg" alt="">
       <img src="/sedona_second_variant/img/divider.png" alt="">
@@ -49,7 +49,7 @@
         заслуживающий большего!</h1>
       <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
-    <section class="section-places">
+    <section data-test="advantages" class="section-places">
       <div class="places-firstrow">
         <div class="card card-places">
           <h3>Настоящий городок</h3>
@@ -117,12 +117,12 @@
       </div>
     </section>
     <section class="section-mailing">
-      <div class="searching">
+      <div data-test="search" class="searching">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a href=""><button type="button">Поиск гостиницы в Седоне</button></a>
       </div>
-      <div class="subscription">
+      <div data-test="subscribe" class="subscription">
         <div class="crop-container">
           <img src="/sedona_second_variant/img/Subscribe.png" alt="" width="1200">
           <div class="overlay-text">
@@ -140,7 +140,7 @@
       </div>
     </section>
   </main>
-  <footer>
+  <footer data-test="footer">
     <ul class="footer-list">
       <li class="footer-list-item">
         <ul class="social-network-list">
