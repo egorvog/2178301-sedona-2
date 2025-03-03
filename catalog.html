@@ -32,8 +32,8 @@
         </li>
         <li class="navigation-list-right">
           <ul>
-            <li><img src="/sedona_second_variant/img/search.png" alt=""></li>
-            <li><img src="/sedona_second_variant/img/heart.png" alt=""></li>
+            <li><img src="img/search.png" alt=""></li>
+            <li><img src="img/heart.png" alt=""></li>
             <li><a href=""><button type="button">ХОЧУ СЮДА!</button></a></li>
           </ul>
         </li>
@@ -50,7 +50,7 @@
     <section data-test="hero" class="catalog-products">
       <h2 class="visually-hidden">Список товаров с фильтрами</h2>
 
-      <form data-test="filter" action="https://echo.htmlacademy.ru/" class="catalog-filter" method="get">
+      <form data-test="filter" action="https://echo.htmlacademy.ru/" class="catalog-filter" method="post">
 
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Инфраструктура</legend>
@@ -98,8 +98,14 @@
             </li>
           </ul>
         </fieldset>
+        <fieldset class="catalog-filter-range">
+          <legend>Стоимость</legend>
+          <input type="text">
+          <input type="text">
+        </fieldset>
 
-        <button class="button" type="submit">Показать</button>
+        <button class="button" type="submit">Применить</button>
+        <button class="button" type="reset">Сбросить</button>
       </form>
 
       <select name="" id="" class="select-control" aria-label="Сортировка">
@@ -108,11 +114,11 @@
         <option value="">Сначала дорогое</option>
       </select>
 
-      <a href="" class="button-list">
+      <a href="" class="catalog-view">
         <span>Показать список</span>
       </a>
 
-      <a href="" class="button-card">
+      <a href="" class="catalog-view catalog-view-selected">
         <span>Показать карточки</span>
       </a>
 
@@ -161,7 +167,7 @@
 
       <ul class="pagination">
         <li class="item-pagination">
-          <a href="" class="pagination-link">1</a>
+          <a href="" class="pagination-link pagination-link-current">1</a>
         </li>
         <li class="item-pagination">
           <a href="" class="pagination-link">2</a>
@@ -171,6 +177,9 @@
         </li>
         <li class="item-pagination">
           <a href="" class="pagination-link">4</a>
+        </li>
+        <li class="item-pagination">
+          <span>...</span>
         </li>
         <li class="item-pagination">
           <a href="" class="pagination-link">10</a>
@@ -184,16 +193,16 @@
     <ul class="footer-list">
       <li class="footer-list-item">
         <ul class="social-network-list">
-          <img src="/sedona_second_variant/img/VK.png" alt="">
-          <img src="/sedona_second_variant/img/TG.png" alt="">
-          <img src="/sedona_second_variant/img/YOUTUBE.png" alt="">
+          <img src="img/VK.png" alt="">
+          <img src="img/TG.png" alt="">
+          <img src="img/YOUTUBE.png" alt="">
         </ul>
       </li>
       <li class="footer-list-item">
         <a href="tel:+7 (812) 812-12-12" class="number-phone">+7 (812) 812-12-12</a>
       </li>
       <li class="footer-list-item">
-        <img src="/sedona_second_variant/img/LOGO_HTMLacademy.svg" alt="">
+        <img src="img/LOGO_HTMLacademy.svg" alt="">
       </li>
     </ul>
   </footer>
