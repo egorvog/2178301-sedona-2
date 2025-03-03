@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'PTsans';
     font-weight: 700;
-    src: url("/sedona_second_variant/fonts/ptsans-700.woff2") format("woff2");
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
 }
 
 @font-face {
     font-family: 'PTsans';
     font-weight: 400;
-    src: url("/sedona_second_variant/fonts/ptsans-400.woff2") format("woff2");
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
 }
 
 body {
@@ -221,7 +221,7 @@ section {
     color: white;
     background-color: rgba(117, 97, 87, 1);
     border-radius: 4px;
-    border: none; 
+    border: none;
 }
 
 .subscription h2 {
@@ -283,7 +283,7 @@ section {
     width: 452px;
     height: 52px;
     border: none;
-} 
+}
 
 .subscription {
     margin-bottom: 40px;
